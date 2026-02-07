@@ -10,7 +10,7 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   background: linear-gradient(90deg, #FFB6C1, #FF69B4, #FF1493);
-  color: #2a1730;
+  color: #000;
 }
 
 a {
@@ -50,6 +50,7 @@ ul {
   opacity: 0.75;
   font-size: 16px;
   letter-spacing: 0.2px;
+  color: #000;
 }
 
 .links {
@@ -104,16 +105,16 @@ ul {
   margin: 0 0 14px 0;
   font-size: 46px;
   line-height: 1.05;
-  color: #2a1730;
+  color: #000;
 }
 
 .info p {
   margin: 0;
   font-size: 16px;
   line-height: 1.65;
-  color: rgba(42, 23, 48, 0.9);
-  background: rgba(255, 255, 255, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.22);
+  color: #000;
+  background: rgba(255, 255, 255, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 18px;
   padding: 16px 18px;
   backdrop-filter: blur(2px);
@@ -127,9 +128,9 @@ ul {
   padding: 12px 28px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.92);
-  color: #5a123a;
+  color: #000;
   font-weight: 700;
-  border: 1px solid rgba(90, 18, 58, 0.22);
+  border: 1px solid rgba(0, 0, 0, 0.18);
   transition: 0.2s;
 }
 
@@ -148,8 +149,8 @@ ul {
 }
 
 ::selection {
-  background: rgba(255, 255, 255, 0.35);
-  color: inherit;
+  background: rgba(255, 255, 255, 0.6);
+  color: #000;
 }
 
 @media (max-width: 900px) {
@@ -200,4 +201,3 @@ ul {
     width: min(520px, 92vw);
   }
 }
-
